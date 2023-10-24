@@ -56,7 +56,7 @@ textarea{
     border: 1px solid #666;
 }
 textarea:focus{
-    border: 1px solid #17115b;
+    border: 1px solid #211a6d;
 }
 button{
     width: 90%;
@@ -67,6 +67,10 @@ button{
     padding: 18px 30px;
     border-radius: 8px;
     font-size: 22px;
+    cursor: pointer;
+}
+button:hover{
+    filter: brightness(125%);
 }
 .result{
     margin-top: 0;
