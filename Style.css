@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Crimson Pro', "Serif";
+}
+body{
+    background: #f1f0f7;
+}
+.container{
+    width: 80vmin;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px rgba(0,0,0,.3);
+}
+.container h2{
+    padding: 25px;
+    text-align: center;
+    background: #17115b;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px 10px 0 0;
+}
+.stats{
+    display: flex;
+    gap: 280px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 26px;
+    margin-bottom: 30px;
+    color: #777;
+}
+.stats span{
+    font-weight: 500;
+}
+#quote{
+    text-align: justify;
+    font-size: 20px;
+    margin: 26px;
+}
+textarea{
+    resize: none;
+    width: 90%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    border: 1px solid #666;
+}
+textarea:focus{
+    border: 1px solid #17115b;
+}
+button{
+    width: 90%;
+    margin: 2px 25px 22px 25px;
+    background: #17115b;
+    color: #fff;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 8px;
+    font-size: 22px;
+}
+.result{
+    margin-top: 0;
+    display: none;
+}
+.result h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #444;
+    padding-bottom: 4px;
+    text-decoration: underline;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.wrapper p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #666;
+}
+.wrapper span{
+    font-weight: 500;
+}
+.success{
+    color:#15ad15;
+}
+.fail{
+    color: rgb(241, 7, 7);
+}
+
+@media (max-width:400px){
+    .container{
+        width: 88%;
+        top: 40%;
+    }
+    .container h2{
+        padding: 20px;
+        font-size: 28px;
+    }
+    .stats{
+        gap: calc(80%/2);
+        font-size: 18px;
+        margin: 24px;
+        margin-bottom: 24px;
+    }
+    #quote{
+        font-size: 18px;
+        margin: 24px;
+    }
+    textarea{
+        width: 88%;
+        margin-left: 22px;
+        font-size: 16px;
+        padding: 8px;
+    }
+    button{
+        width: 88%;
+        margin: 2px 25px 22px 22px;
+        padding: 16px 28px;
+        font-size: 20px;
+    }
+    .result h3{
+        margin-bottom: 2px;
+        font-size: 22px;
+    }
+    .wrapper{
+        margin: 22px;
+    }
+    .wrapper p{
+        font-size: 18px;
+    }
+}
