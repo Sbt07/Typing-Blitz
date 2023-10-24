@@ -110,7 +110,7 @@ button{
         font-size: 28px;
     }
     .stats{
-        gap: calc(80%/2);
+        gap: calc(55%/2);
         font-size: 18px;
         margin: 24px;
         margin-bottom: 24px;
@@ -136,9 +136,10 @@ button{
         font-size: 22px;
     }
     .wrapper{
+        gap: calc(15%/2);
         margin: 22px;
     }
     .wrapper p{
-        font-size: 18px;
+        font-size: 15px;
     }
 }
